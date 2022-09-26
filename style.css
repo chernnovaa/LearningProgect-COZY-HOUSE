@@ -90,7 +90,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 80px;
+  padding-top: 60px;
 }
 .header__content-title {
   font-family: 'Georgia';
@@ -282,4 +282,133 @@ body {
   letter-spacing: 0.06em;
   color: #F1CDB3;
   padding-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 30px;
+  }
+  .header__top {
+    padding-top: 30px;
+  }
+  .header__content {
+    flex-direction: column;
+  }
+  .header__content-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn__main {
+    align-self: center;
+  }
+  .header__content-img {
+    padding-top: 100px;
+  }
+  .info {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .info__content {
+    max-width: 430px;
+  }
+  .info__img {
+    width: 300px;
+    padding-top: 80px;
+  }
+  .help {
+    padding: 80px 69px 100px 69px;
+  }
+  .help__wrapper {
+    justify-content: space-between;
+  }
+  .donation {
+    flex-direction: column-reverse;
+  }
+  .donation__img {
+    padding-top: 60px;
+  }
+  .footer__wrapper {
+    flex-wrap: wrap;
+  }
+  .footer__wrapper-inner {
+    flex-basis: 50%;
+  }
+  .footer__img {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+.navigation {
+  display: none;
+}
+.header__content-title {
+  font-size: 25px;
+  line-height: 32px;
+  text-align: center;
+}
+.header__content-text {
+  min-width: 300px;
+  text-align: center;
+}
+.header__content-img {
+  display: none;
+}
+.info {
+  padding: 42px 25px;
+}
+.info__title {
+  font-size: 25px;
+  line-height: 32px;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 25px;
+}
+.info__img {
+  padding-top: 42px;
+}
+.help {
+  padding: 42px 15px;
+}
+.title__seccondary {
+  font-size: 25px;
+  line-height: 32px;
+  padding-bottom: 42px;
+}
+.help__wrapper-inner {
+  min-width: 110px;
+}
+.help__text {
+  padding: 20px 0 30px 0;
+  font-size: 15px;
+  line-height: 17px;
+}
+.donation {
+  padding: 42px 20px;
+}
+.donation__title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.donation__subtitle {
+  font-size: 15px;
+  line-height: 24px;
+  padding-bottom: 20px;
+  letter-spacing: 0;
+}
+.donation__number {
+  font-size: 14px;
+  line-height: 17px;
+}
+.donation__img {
+  display: none;
+}
+.footer__wrapper-inner {
+  padding-top: 30px;
+}
+.footer__contact-title,
+.footer__location-title  {
+  font-size: 35px;
+  line-height: 32px;
+}
 }
