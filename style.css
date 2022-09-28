@@ -351,9 +351,6 @@ body {
   min-width: 300px;
   text-align: center;
 }
-.header__content-img {
-  display: none;
-}
 .info {
   padding: 42px 25px;
 }
@@ -400,15 +397,18 @@ body {
   font-size: 14px;
   line-height: 17px;
 }
-.donation__img {
-  display: none;
+.footer__wrapper {
+  flex-direction: column;
 }
 .footer__wrapper-inner {
   padding-top: 30px;
+  text-align: center;
 }
 .footer__contact-title,
 .footer__location-title  {
-  font-size: 35px;
   line-height: 32px;
+}
+.footer__img {
+  padding-top: 0;
 }
 }
