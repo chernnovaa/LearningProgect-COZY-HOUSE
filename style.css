@@ -261,6 +261,7 @@ body {
   color: #FFFFFF;
   margin: 0;
   padding-bottom: 45px;
+  max-width: 279px;
 }
 .footer__location-title {
   font-family: 'Georgia';
@@ -271,6 +272,7 @@ body {
   color: #FFFFFF;
   margin: 0;
   padding-bottom: 34px;
+  max-width: 278px;
 }
 .footer__img {
   padding-top: 40px;
@@ -329,12 +331,14 @@ body {
   }
   .footer__wrapper {
     flex-wrap: wrap;
+    justify-content: center;
   }
   .footer__wrapper-inner {
     flex-basis: 50%;
   }
   .footer__img {
     margin: 0 auto;
+    padding-top: 0;
   }
 }
 
@@ -406,6 +410,7 @@ body {
 }
 .footer__contact-title,
 .footer__location-title  {
+  font-size: 25px;
   line-height: 32px;
 }
 .footer__img {
