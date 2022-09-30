@@ -107,6 +107,9 @@ body {
   color: #CDCDCD;
   margin-bottom: 45px;
 }
+.header__content-img {
+  flex-basis: 60%;
+}
 .info {
   display: flex;
   justify-content: space-evenly;
@@ -128,6 +131,9 @@ body {
 }
 .info__text:not(:last-child) {
   padding-bottom: 25px;
+}
+.info__picture {
+  margin-right: 50px;
 }
 .slider {
   display: flex;
@@ -189,7 +195,7 @@ body {
 }
 .donation {
   display: flex;
-  padding: 80px 0 100px 0;
+  padding: 80px 10px 100px 10px;
   justify-content: space-evenly;
   align-items: center;
   background-color: #F6F6F6;
@@ -232,7 +238,7 @@ body {
   padding: 10px 15px;
 }
 .donation__card-img {
-  padding: 10px 0 10px 15px;
+  padding-left: 15px;
 }
 .footer {
   background-image: url(image/footer.jpg);
@@ -246,6 +252,7 @@ body {
 }
 .footer__wrapper-inner {
   padding-top: 56px;
+  padding: 56px 5px 0 5px;
 }
 .footer__item {
   padding-bottom: 45px;
@@ -309,12 +316,12 @@ body {
   .info {
     flex-direction: column-reverse;
     align-items: center;
+    padding: 80px 25px 100px 25px;
   }
   .info__content {
     max-width: 430px;
   }
   .info__img {
-    width: 300px;
     padding-top: 80px;
   }
   .help {
@@ -322,6 +329,9 @@ body {
   }
   .help__wrapper {
     justify-content: space-between;
+  }
+  .help__wrapper-inner {
+    min-width: 150px;
   }
   .donation {
     flex-direction: column-reverse;
@@ -342,7 +352,7 @@ body {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
 .navigation {
   display: none;
 }
@@ -407,6 +417,7 @@ body {
 .footer__wrapper-inner {
   padding-top: 30px;
   text-align: center;
+  flex-basis: 0;
 }
 .footer__contact-title,
 .footer__location-title  {
