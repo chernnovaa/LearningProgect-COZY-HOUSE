@@ -65,7 +65,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 60px;
+  padding-top: 30px;
 }
 .header__logo-text {
   font-size: 13px;
@@ -612,4 +612,25 @@ body {
 }
 .popup__background--close {
   display: none;
+}
+
+.pets__item {
+  color: #545454;
+}
+.pets__logo-text {
+  color: #292929;
+}
+.pets__top {
+  padding-bottom: 30px;
+}
+.our {
+  background-color: #F6F6F6;
+  padding: 80px 40px 100px 40px;
+}
+.our__pets {
+  display: grid;
+  gap: 40px 30px;
+  grid-template-columns: 270px 270px 270px 270px;
+  justify-items: center;
+  justify-content: center;
 }
